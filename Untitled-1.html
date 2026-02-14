@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 8px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .options {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>चाळीशी लग्न सेवा </h1>
+
+    <p>
+        आमच्या कडे लग्न पत्रिका पासून ते लग्न लावणे पर्यंत सगळं एकदम सेट आहे 😄 <br><br>
+        प्री-वेडिंग शूटमध्ये तुम्ही हिरो-हिरोईन आणि आम्ही डायरेक्टर! 📸 <br>
+        डेकोरेशन इतकं भारी की पाहुणे फोटो काढण्यातच व्यस्त राहतील 🎉 <br>
+        लग्न पत्रिका अशी की नातेवाईक दोनदा वाचतील 😉 <br>
+        मंडप, लाईट, साऊंड – सगळं “टेंशन फ्री पॅकेज” मध्ये! <br><br>
+        नवरदेव उशिरा आला तरी कार्यक्रम वेळेवर सुरू करायची आमची कला आहे 😜 <br>
+        सासर-माहेर दोघांनाही खुश ठेवण्याची जबाबदारी आमची! <br>
+        फोटोज असे काढू की पुढच्या पिढीलाही दाखवता येतील 😎 <br>
+        आणि हो… चाळीशी एलेव्न तर्फे दिलीप बाबांचे भजन फ्री मध्ये – बोनस म्हणून! 🎶 <br>
+        एकदा सेवा घ्या, मग पुढच्या लग्नासाठी (मित्रांच्या 😅) आमचंच नाव घ्या!
+    </p>
+
+    <br>
+
+    <button onclick="showOptions()">Click Me</button>
+
+    <div class="options" id="menuOptions">
+    <button onclick="window.location.href='prewedding.html'">Pre-Wedding Shoot</button>
+
+    <button onclick="window.location.href='decoration.html'">Decoration</button>
+
+    <button onclick="window.location.href='bhajan.html'">चाळीशी भजन</button>
+
+    <button onclick="window.location.href='patrika.html'">पत्रिका</button>
+
+    <button onclick="window.location.href='benjo.html'">बेंजो</button>
+
+    <button onclick="window.location.href='photography.html'">Photography</button>
+</div>
+
+    </div>
+
+    <script>
+        function showOptions() {
+            document.getElementById("menuOptions").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
